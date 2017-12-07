@@ -1,0 +1,8 @@
+{"namespace": "lu.sandstone.d2.storage",
+ "type": "record",
+ "name": "SomeType",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "theMap", "type": {"type": "map", "values": "bytes"}}
+ ]
+}
